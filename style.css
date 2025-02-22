@@ -1,0 +1,74 @@
+body {
+  font-family: "Sono", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.pricing-container {
+  display: flex;
+  gap: 20px;
+}
+
+.pricing-plan {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.plan-price {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  font-family: "Courier New", monospace;
+  margin-bottom: 15px;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.plan-features li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.plan-button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.plan-button:hover {
+  background-color: #e55b00;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
