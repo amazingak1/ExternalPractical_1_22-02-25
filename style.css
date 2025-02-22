@@ -1,5 +1,4 @@
 body {
-  font-family: "Sono", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,12 +31,10 @@ body {
   font-size: 28px;
   font-weight: bold;
   color: black;
-  font-family: "Courier New", monospace;
   margin-bottom: 15px;
 }
 
 .plan-features {
-  list-style: none;
   padding: 0;
   margin-bottom: 20px;
   font-size: 16px;
@@ -66,7 +63,7 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .pricing-container {
     flex-direction: column;
     align-items: center;
